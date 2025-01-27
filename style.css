@@ -44,10 +44,11 @@ h1{
 }
 .passwordContainers {
     width: 400px;
-    height: 50px;
+    height: 100px;
     border-radius: 6px;
     background: #273549;
     text-align: center;
+    align-items:center;
     color: white;
     font-family: Inter;
     font-size: 20px;
@@ -59,12 +60,9 @@ hr {
     border-color: #FE346E;
 }
 
-
-
 #button {
     text-align: center;
     border: solid 1px black;
     border-radius: 10px;
     margin-left: 5px;
-    text-weight: 300;
 }

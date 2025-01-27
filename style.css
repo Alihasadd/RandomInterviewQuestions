@@ -30,11 +30,13 @@ h1{
     }
     
 #generatePasswordBtn {
+    display: block;
     padding: 15px 20px;
     justify-content: center;
     background-color: #FFBD69;
     border-radius: 6px;
     border-style: none;
+    margin: 15px auto;
     
 }
 #showPasswordContainers {

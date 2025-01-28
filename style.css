@@ -1,4 +1,6 @@
-
+* {
+    margin: 5px;
+}
 
 body {
     width: 450px;

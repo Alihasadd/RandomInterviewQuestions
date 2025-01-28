@@ -71,3 +71,8 @@ hr {
     border-radius: 10px;
     margin-left: 5px;
 }
+
+#button:hover {
+    background-color: #008CBA; /* change to your desired color */
+    color: white; /* change to your desired color */
+  }

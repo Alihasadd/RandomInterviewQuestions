@@ -67,14 +67,42 @@ hr {
     border-color: #FE346E;
 }
 
-#button {
+button {
     text-align: center;
     border: solid 1px black;
     border-radius: 10px;
     margin-left: 5px;
 }
 
-#button:hover {
-    background-color: #008CBA; /* change to your desired color */
-    color: white; /* change to your desired color */
+#generatePasswordBtn:hover {
+    background-color: #FE346E;
+    border-bottom-color: #b92952;
+    border-bottom: 5px;
+    border: #b92952;
   }
+
+  .btn {  
+    font-family: Arial, Helvetica, sans-serif;  
+    text-transform: uppercase;}  
+    
+.btn:hover .btn-slide-show-text1 {  
+    margin-left: 65px;}  
+
+.btn-moving-gradient {  
+    height: 55px; 
+     width: 200px;  
+     font-size: 16px;  
+     font-weight: 600;  
+     color: rgb(255, 255, 255);  
+     cursor: pointer;  
+     border: none;  
+     background-size: 300% 100%;  
+     border-radius: 50px;
+    }  
+
+.btn-moving-gradient:hover {  
+    transition: 0.5s ease-in-out;  
+    background-position: 100% 0px;}  
+    
+.btn-moving-gradient--pink {  
+    background-image: linear-gradient(90deg, rgb(255, 97, 171), rgb(255, 176, 97), rgb(255, 97, 97), rgb(255, 99, 146));  box-shadow: rgb(255, 123, 97) 0px 4px 15px 0px;}  

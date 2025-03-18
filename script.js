@@ -1,4 +1,5 @@
-const characters = ["Walk me through your resume",
+const characters = [
+  {question:"Walk me through your resume", hint: "Use CAR method" },
 "Tell me about a time where you were working with a difficult client.","What is a weakness you are working on?","What was your biggest mistake at work?","Tell me about a time you were delayed on a project.","What experiences have helped prepared you for this role?","What is your greatest strength?","How would your team describe you?","Why do you want this job?","Describe your leadership style.","How do you handle conflict?","Why do you want to work here?","What are your weaknesses?","What is your biggest achievement?","What do you know about the company?",];
 let passwordOne = document.getElementById('el-passwordOne') // 1 connection JS > HTML
 let passwordTwo = document.getElementById('el-passwordTwo')

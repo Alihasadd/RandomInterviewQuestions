@@ -39,15 +39,17 @@ h1{
     border-radius: 6px;
     border-style: none;
     margin: 15px auto;
+    font-weight: 600;
 }
 
 #showPasswordContainers {
-    margin: auto;
+    margin: 10px;
+    padding: 5px;
 }
 
 .passwordContainers {
     justify-content: center;
-    width: 400px;
+    width: 350px;
     height: 80px;
     border-radius: 6px;
     background: #273549;
@@ -56,14 +58,30 @@ h1{
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.passwordContainers:hover {
+    justify-content: center;
+    width: 350px;
+    height: 80px;
+    border-radius: 6px;
+    background: #283446;
+    text-align: center;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
     padding: 10px;
 }
 
 #hint  {
     justify-content: center;
-    width: 400px;
+    width: 350px;
     height: 80px;
+    border: none;
     border-radius: 6px;
     background: #222e3f;
     text-align: center;
@@ -71,7 +89,23 @@ h1{
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 300;
+    padding: 10px;
+    font-style: italic;
+}
+
+#hint:hover  {
+    justify-content: center;
+    width: 350px;
+    height: 80px;
+    border-radius: 6px;
+    background: #202e41;
+    text-align: center;
+    color: #b8b0b0;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
     padding: 10px;
     font-style: italic;
 }

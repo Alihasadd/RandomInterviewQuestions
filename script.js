@@ -40,3 +40,14 @@ hint.addEventListener('click', () => {
 https://www.figma.com/design/NEj9JDycMjF3XKXq7swoc9/Random-Password-Generator-(New-version)?node-id=102-702&t=C08bkbgs3DMxFw5M-0
 
 }*/
+
+
+// const questionsAndHints = [
+//   { question: "What are higher order functions", hint: "A Higher Order Function is a function that accepts a function as an argument or returns a function as its result, .map() would be the HOF, not the function you pass into it too." },
+//   { question: "1", hint: "2" },
+//   { question: "1", hint: "2" },
+//   { question: "1", hint: "2" },
+//   { question: "1", hint: "2" },
+//   { question: "1", hint: "2" },
+//   { question: "1", hint: "2" },
+

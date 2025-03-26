@@ -8,6 +8,7 @@ https://www.joshwcomeau.com/css/custom-css-reset/*/
   /* 2. Remove default margin */
   * {
     margin: 0;
+    padding: 0;
   }
   
   body {

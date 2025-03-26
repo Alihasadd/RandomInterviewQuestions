@@ -1,158 +1,149 @@
-* {
-    margin: 5px;
-}
-
 body {
-    width: 450px;
-    height: 400px;
-    background: #1F2937;
-    border: 5px solid white;
-    border-radius: 20px;
-    align-content: center;
-    padding: 20px;
-    
-}
-#Container {
-    color: white;
-    font-family: Karla;
-    font-style: normal;
-    letter-spacing: -1px;
-}
-#spanRandomQuestion{
-    color: #FE346E;
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h1{
+.app-container {
+  width: 450px;
+  border: 5px solid white;
+  border-radius: 20px;
+  align-content: center;
+  padding: 20px;
+}
+
+#Container {
+  color: white;
+  font-family: Karla;
+  font-style: normal;
+  letter-spacing: -1px;
+}
+
+#spanRandomQuestion {
+  color: #fe346e;
+}
+
+h1 {
   color: white;
 }
 #belowHeaderParagraph {
-    font-style:italic;
-    color: white;
-    justify-content: center;
-    }
-    
+  font-style: italic;
+  color: white;
+  justify-content: center;
+}
+
 #generatePasswordBtn {
-    display: block;
-    padding: 15px 20px;
-    justify-content: center;
-    background-color: #f8af50;
-    border-radius: 6px;
-    border-style: none;
-    margin: 15px auto;
-    font-weight: 600;
+  display: block;
+  padding: 15px 20px;
+  justify-content: center;
+  background-color: #f8af50;
+  border-radius: 6px;
+  border-style: none;
+  margin: 15px auto;
+  font-weight: 600;
 }
 
 #showPasswordContainers {
-    margin: 1px;
-    padding: 20px;
+  margin: 1px;
+  padding: 20px;
 }
 
 .passwordContainers {
-    justify-content: center;
-    justify-items: center;
-    width: 350px;
-    height: 80px;
-    border-radius: 10px;
-    background: #273549;
-    text-align: center;
-    color: white;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  border-radius: 10px;
+  background: #273549;
+  text-align: center;
+  color: white;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 10px;
 }
 
 .passwordContainers:hover {
-    justify-content: center;
-    width: 350px;
-    height: 80px;
-    border-radius: 10px;
-    background: #283446;
-    text-align: center;
-    color: white;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    padding: 10px;
+  background: #283446;
 }
 
-#hint  {
-    justify-content: center;
-    width: 350px;
-    height: 80px;
-    border: none;
-    border-radius: 6px;
-    background: #222e3f;
-    text-align: center;
-    color: #b8b0b0;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    padding: 10px;
-    font-style: italic;
+#hint {
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  border: none;
+  border-radius: 10px;
+  background: #222e3f;
+  text-align: center;
+  color: #b8b0b0;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  padding: 10px;
+  font-style: italic;
+  margin-top: 10px;
 }
 
-#hint:hover  {
-    justify-content: center;
-    width: 350px;
-    height: 80px;
-    border-radius: 6px;
-    background: #202e41;
-    text-align: center;
-    color: #b8b0b0;
-    font-family: Inter;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    padding: 10px;
-    font-style: italic;
+#hint:hover {
+  background: #202e41;
 }
 
 hr {
-    border-color: #FE346E;
-    border-width: 3px;
+  border-color: #fe346e;
+  border-width: 3px;
 }
 
 button {
-    text-align: center;
-    justify-items: center;
-    border: solid 1px black;
-    border-radius: 10px;
-    margin-left: 5px;
+  text-align: center;
+  justify-items: center;
+  border: solid 1px black;
+  border-radius: 10px;
 }
 
 #generatePasswordBtn:hover {
-    background-color: #FE346E;
-    border-bottom-color: #b92952;
-    border-bottom: 5px;
-    border: #b92952;
-  }
+  background-color: #fe346e;
+  border-bottom-color: #b92952;
+  border-bottom: 5px;
+  border: #b92952;
+}
 
-  .btn {  
-    font-family: Arial, Helvetica, sans-serif;  
-    text-transform: uppercase;}  
-    
-.btn:hover .btn-slide-show-text1 {  
-    margin-left: 65px;}  
+.btn {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
 
-.btn-moving-gradient {  
-    height: 55px; 
-     width: 200px;  
-     font-size: 16px;  
-     font-weight: 600;  
-     color: rgb(255, 255, 255);  
-     cursor: pointer;  
-     border: none;  
-     background-size: 300% 100%;  
-     border-radius: 50px;
-    }  
+.btn:hover .btn-slide-show-text1 {
+  margin-left: 65px;
+}
 
-.btn-moving-gradient:hover {  
-    transition: 0.5s ease-in-out;  
-    background-position: 100% 0px;}  
-    
-.btn-moving-gradient--pink {  
-    background-image: linear-gradient(90deg, rgb(255, 97, 171), rgb(255, 176, 97), rgb(255, 97, 97), rgb(255, 99, 146));  box-shadow: rgb(255, 123, 97) 0px 4px 15px 0px;}  
+.btn-moving-gradient {
+  height: 55px;
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+}
+
+.btn-moving-gradient:hover {
+  transition: 0.5s ease-in-out;
+  background-position: 100% 0px;
+}
+
+.btn-moving-gradient--pink {
+  background-image: linear-gradient(
+    90deg,
+    rgb(255, 97, 171),
+    rgb(255, 176, 97),
+    rgb(255, 97, 97),
+    rgb(255, 99, 146)
+  );
+  box-shadow: rgb(255, 123, 97) 0px 4px 15px 0px;
+}

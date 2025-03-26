@@ -1,41 +1,45 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-    </head>
-    <body>
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <div class="app-container">
         <div id="headingContainer">
             <h1>Generate a <br><span id="spanRandomQuestion">random interview question</span></h1>
             <p id="belowHeaderParagraph">Never be unprepared for an interview again.</p>
         </div>
         <div>
             <!-- <p id="quantityParagraph">Quantity (between 5 and 20):</p>
-            <div id="formSubmitButton">
-            <input type="number" id="quantity" min="5" max="20">
-            </div> -->
+                <div id="formSubmitButton">
+                <input type="number" id="quantity" min="5" max="20">
+                </div> -->
 
-        </form>
+            </form>
         </div>
         <button id="generatePasswordBtn">Generate a question</button>
         <hr>
         <div id="showPasswordContainers">
             <div class="passwordContainers">
-                <p id="question">Question </p> 
+                <p id="question">Question </p>
             </div>
-            <button id="hint">Hint </button> 
-<!--             <div class="passwordContainers">
-                <p id="el-passwordTwo">password </p> 
-                <button id="copy"> Copy</button>
-            </div> -->
+            <button id="hint">Hint </button>
+            <!--             <div class="passwordContainers">
+                    <p id="el-passwordTwo">password </p> 
+                    <button id="copy"> Copy</button>
+                </div> -->
         </div>
-      
+    </div>
 
-        
-        
-        <script src="script.js"></script>
-    </body>
+
+
+
+    <script src="script.js"></script>
+</body>
+
 </html>
-
